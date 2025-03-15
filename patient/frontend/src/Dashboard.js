@@ -2,7 +2,7 @@ function Dashboard() {
     return (
         <div className="public-page flex flex-row ">
             <img className="h-[800px] w-1/4 object-cover sticky top-0" src="../images/background.png" alt="background" />
-            <div className='my-[200px] mx-auto w-3/5 flex-col flex gap-8  '>
+            <div className='mb-[200px] mt-[100px] mx-auto w-3/5 flex-col flex gap-8  '>
                 <div className="flex">
                     <h2 className="text-2xl font-normal mb-12" id="heading">Good Morning &nbsp;</h2>
                     <h2 className="text-2xl text-lime-900 font-bold">John Doe</h2>
