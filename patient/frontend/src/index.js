@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './Home.js'
 import Dashboard from './Dashboard.js'
-import SignUp from './SignUp.js';
 import Search from './Search.js';
-import Detail from './Detail.js';
+import SelectAppointment from './SelectAppointment.js';
+import BookAppointment from './BookAppointment.js';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -18,11 +18,10 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path='/search' element={<Search />} />
-        <Route path='/detail' element={<Detail />} />
-        
+        <Route path='/selectAppointment' element={<SelectAppointment />} />
+        <Route path='/bookAppointment' element={<BookAppointment/>} />
       </Routes>
     </BrowserRouter>
   );

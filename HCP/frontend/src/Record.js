@@ -1,4 +1,5 @@
 function Record() {
+  console.log("Functions: getAllMedicalProfessionals, getMedicalProfessionalById")
   return (
     <div className="flex flex-row ">
       <img className="h-[800px] w-1/4 object-cover sticky top-0" src="../images/background.png" alt="background" />
@@ -8,7 +9,7 @@ function Record() {
         </div>
         <div className="flex gap-8">
           <div className="flex flex-col gap-3 p-6 bg-white border border-gray-100 rounded-[10px] shadow-sm hover:bg-gray-50 w-full">
-            <h2 className="mb-2 w-full text-lg font-bold tracking-tight text-gray-900 ">Appointments</h2>
+            <h2 className="mb-2 w-full text-lg font-semibold tracking-tight text-gray-900 ">Appointments</h2>
             <div className="flex w-full items-center">
               <div className="flex flex-col px-1.5  bg-gray-900 rounded-[6px] items-center">
                 <div className="text-amber-400 font-bold ">Mon</div>
@@ -45,7 +46,7 @@ function Record() {
           </div>
         </div>
         <div className="flex flex-col gap-2 p-6 bg-white border border-gray-100 rounded-[10px] shadow-sm hover:bg-gray-50 w-full">
-          <h2 className="mb-1.5 w-full text-lg font-bold tracking-tight text-gray-900 ">Medical Professionals Available</h2>
+          <h2 className="mb-1.5 w-full text-lg font-semibold tracking-tight text-gray-900 ">Medical Professionals Available</h2>
           <div className='flex gap-3'>
             <div className='flex flex-col w-3/10'>
               <div className='font-semibold mb-3'>Professionals</div>

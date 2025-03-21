@@ -7,6 +7,7 @@ function Home() {
     setHeading('Incorrect ID or password');
     setSubheading('Please retry again');
   };
+  console.log("Functions: addMedicalProfessional, removeMedicalProfessional")
   return (
     <div className="public-page flex flex-row">
 

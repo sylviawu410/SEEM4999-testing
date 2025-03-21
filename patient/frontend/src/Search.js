@@ -16,7 +16,7 @@ function Search() {
     const navigate = useNavigate();
 
     const handleBookAppointment = (appointment) => {
-        navigate('/detail', { state: { appointment } });
+        navigate('/selectAppointment', { state: { appointment } });
     };
     return (
         <div className="flex flex-row ">
