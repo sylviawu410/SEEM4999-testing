@@ -1,6 +1,6 @@
 function Dashboard() {
     return (
-        <div className="public-page flex flex-row ">
+        <div className="flex flex-row ">
             <img className="h-[800px] w-1/4 object-cover sticky top-0" src="../images/background.png" alt="background" />
             <div className='mb-[200px] mt-[100px] mx-auto w-3/5 flex-col flex gap-8  '>
                 <div className="flex">
